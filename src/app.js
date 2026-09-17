@@ -11,7 +11,7 @@ app.use(cookie_parser())
 
 
 app.use("/api/auth/",authRouter);
-app.use("/api/auth",musicRouter);
+app.use("/api/music/",musicRouter);
 
 
 module.exports=app;
